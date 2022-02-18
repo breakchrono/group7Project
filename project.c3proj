@@ -13,12 +13,21 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "3D shape",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "3vqzguos74j",
 	"objectTypes": {
 		"items": [
-			"TiledBackground"
+			"TiledBackground",
+			"3DShape"
 		],
 		"subfolders": []
 	},
