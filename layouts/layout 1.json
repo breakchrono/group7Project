@@ -23,10 +23,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 3,
-						"y": 4,
-						"width": 1703,
-						"height": 953,
+						"x": 301,
+						"y": 390,
+						"width": 100,
+						"height": 100,
 						"originX": 0,
 						"originY": 0,
 						"color": [
