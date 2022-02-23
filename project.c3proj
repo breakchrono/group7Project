@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 27602,
-	"name": "group7Project",
+	"name": "group7birdproject",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -16,19 +16,34 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Shape3D",
-			"name": "3D shape",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
 		}
 	],
-	"uniqueId": "3vqzguos74j",
+	"uniqueId": "i4g5pgxnhpd",
 	"objectTypes": {
 		"items": [
 			"TiledBackground",
-			"3DShape",
-			"TiledBackground2"
+			"bird"
 		],
 		"subfolders": []
 	},
@@ -40,7 +55,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Main Scene"
+			"Layout 1"
 		],
 		"subfolders": []
 	},
@@ -74,17 +89,17 @@
 		"icon": {
 			"items": [
 				{
-					"name": "icon-16.png",
+					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 349797957921939,
+					"sid": 759134931793215,
 					"icon-info": {
-						"purpose": "app-icon"
+						"purpose": "loading-logo"
 					}
 				},
 				{
-					"name": "icon-32.png",
+					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 389179716121209,
+					"sid": 635497434347120,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -92,15 +107,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 169443060348581,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-128.png",
-					"type": "image/png",
-					"sid": 240679784197551,
+					"sid": 564914971668679,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -108,7 +115,23 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 443664543331253,
+					"sid": 264385081876716,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 952481068207800,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 475341935144615,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -116,17 +139,9 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 137675478434685,
+					"sid": 586357332316625,
 					"icon-info": {
 						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "loading-logo.png",
-					"type": "image/png",
-					"sid": 741625383535841,
-					"icon-info": {
-						"purpose": "loading-logo"
 					}
 				}
 			],
