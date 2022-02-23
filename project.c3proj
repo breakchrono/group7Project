@@ -27,7 +27,8 @@
 	"objectTypes": {
 		"items": [
 			"TiledBackground",
-			"3DShape"
+			"3DShape",
+			"TiledBackground2"
 		],
 		"subfolders": []
 	},
@@ -39,7 +40,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Main Scene"
 		],
 		"subfolders": []
 	},
