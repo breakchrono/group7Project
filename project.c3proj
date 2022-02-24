@@ -37,13 +37,30 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "i4g5pgxnhpd",
 	"objectTypes": {
 		"items": [
 			"TiledBackground",
-			"bird"
+			"bird",
+			"YellowFish"
 		],
 		"subfolders": []
 	},

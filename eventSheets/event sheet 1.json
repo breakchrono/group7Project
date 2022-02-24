@@ -1,5 +1,38 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 368747638528307,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "YellowFish",
+					"sid": 482309722913526,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "random(0,YellowFish.X+500)",
+						"y": "random(0,YellowFish.Y+500)"
+					}
+				},
+				{
+					"id": "move-along-path",
+					"objectClass": "YellowFish",
+					"sid": 717090641564291,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 684973253270986
+		}
+	],
 	"sid": 537396507601662
 }

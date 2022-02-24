@@ -1,0 +1,68 @@
+{
+	"name": "YellowFish",
+	"plugin-id": "Sprite",
+	"sid": 933749241187346,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 846973964786443
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 633656564246856
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4448816,
+						"collisionPoly": {
+							"points": [
+								0.2564102564102564,
+								0.30303030303030304,
+								0.5,
+								0.09090909090909091,
+								0.6666666666666666,
+								0.36363636363636365,
+								0.7435897435897436,
+								0.5,
+								0.6666666666666666,
+								0.6060606060606061,
+								0.5,
+								0.8484848484848485,
+								0.2564102564102564,
+								0.6666666666666666,
+								0.10256410256410256,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 239858390828956,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
