@@ -7,9 +7,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 368747638528307,
+					"sid": 126033674319885,
 					"parameters": {
-						"interval-seconds": "3"
+						"interval-seconds": "2"
 					}
 				}
 			],
@@ -32,6 +32,36 @@
 				}
 			],
 			"sid": 684973253270986
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bird",
+					"sid": 196404585759500,
+					"parameters": {
+						"object": "YellowFish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "YellowFish",
+					"sid": 151683462003277
+				},
+				{
+					"id": "set-size",
+					"objectClass": "bird",
+					"sid": 169831065747731,
+					"parameters": {
+						"width": "97",
+						"height": "103"
+					}
+				}
+			],
+			"sid": 282685808181524
 		}
 	],
 	"sid": 537396507601662
